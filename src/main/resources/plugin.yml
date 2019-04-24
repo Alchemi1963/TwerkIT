@@ -1,0 +1,25 @@
+name: TwerkIT
+main: com.alchemi.twerkit.main
+version: ${project.version}
+api-version: 1.13
+author: Alchemi
+description: Twerk that tree!
+
+commands:
+  twerkit:
+    description: Reload config.
+    usage: /twerkit
+    permission: twerkit.reload
+
+permissions:
+  twerkit.twerk:
+    description: Permission to twerk.
+  twerkit.cacsug:
+    description: Permission to twerk on cacti and sugar canes.
+    default: op
+  twerkit.trees:
+    description: Permission to twerk some trees to life.
+    default: op
+  twerkit.reload:
+    description: Permission to reload config.
+    default: op
