@@ -1,5 +1,5 @@
 name: TwerkIT
-main: com.alchemi.twerkit.main
+main: me.alchemi.twerkit.main
 version: ${project.version}
 api-version: 1.13
 author: Alchemi

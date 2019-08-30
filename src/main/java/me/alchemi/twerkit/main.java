@@ -1,4 +1,4 @@
-package com.alchemi.twerkit;
+package me.alchemi.twerkit;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +28,7 @@ public class main extends JavaPlugin implements Listener {
 	public int growthChance;
 	public Random rand;
 	
-	public static main instance;
+	private static main instance;
 	
 	public void onEnable() {
 		instance = this;
@@ -209,5 +209,9 @@ public class main extends JavaPlugin implements Listener {
 			}
 		}
 		return false;
+	}
+
+	public static main getInstance() {
+		return instance;
 	}
 }
